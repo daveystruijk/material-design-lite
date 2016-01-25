@@ -19,7 +19,7 @@
 .mdl-icon-toggle {
   position: relative;
 
-  z-index: 1;
+  z-index: $z-index-1;
 
   vertical-align: middle;
 
@@ -93,7 +93,7 @@
 
 .mdl-icon-toggle__ripple-container {
   position: absolute;
-  z-index: 2;
+  z-index: $z-index-2;
   top: -(($icon-toggle-ripple-size - $icon-toggle-size) / 2);
   left: -(($icon-toggle-ripple-size - $icon-toggle-size) / 2);
 

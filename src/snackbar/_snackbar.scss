@@ -24,7 +24,7 @@
   margin-right: -50%;
   cursor: default;
   background-color: $snackbar-background-color;
-  z-index: 10000;
+  z-index: $z-index-10000;
   display: flex;
   font-family: $preferred_font;
   will-change: transform;

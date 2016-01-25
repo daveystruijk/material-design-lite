@@ -21,7 +21,7 @@
 .mdl-switch {
   position: relative;
 
-  z-index: 1;
+  z-index: $z-index-1;
 
   vertical-align: middle;
 
@@ -164,7 +164,7 @@
 
 .mdl-switch__ripple-container {
   position: absolute;
-  z-index: 2;
+  z-index: $z-index-2;
   top: -($switch-ripple-size - $switch-label-height) / 2;
   left: $switch-thumb-size / 2 - $switch-ripple-size / 2;
 

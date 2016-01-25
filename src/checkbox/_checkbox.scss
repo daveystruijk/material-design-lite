@@ -20,7 +20,7 @@
 .mdl-checkbox {
   position: relative;
 
-  z-index: 1;
+  z-index: $z-index-1;
 
   vertical-align: middle;
 
@@ -74,7 +74,7 @@
   border: 2px solid $checkbox-off-color;
   border-radius: 2px;
 
-  z-index: 2;
+  z-index: $z-index-2;
 
   .mdl-checkbox.is-checked & {
     border: 2px solid $checkbox-color;
@@ -150,7 +150,7 @@
 
 .mdl-checkbox__ripple-container {
   position: absolute;
-  z-index: 2;
+  z-index: $z-index-2;
   top: -(($checkbox-ripple-size - $checkbox-label-height) / 2);
   left: -(($checkbox-ripple-size - $checkbox-button-size) / 2);
 

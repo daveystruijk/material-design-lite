@@ -43,7 +43,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
     padding: 0;
     color: $range-color;
     align-self: center;
-    z-index: 1;
+    z-index: $z-index-1;
     cursor: pointer;
 
 
