@@ -70,7 +70,7 @@
   border: 2px solid $radio-off-color;
   border-radius: 50%;
 
-  z-index: 2;
+  z-index: $z-index-2;
 
   .mdl-radio.is-checked & {
     border: 2px solid $radio-color;
@@ -85,7 +85,7 @@
 
 .mdl-radio__inner-circle {
   position: absolute;
-  z-index: 1;
+  z-index: $z-index-1;
   margin: 0;
   top: $radio-top-offset + $radio-inner-margin;
   left: $radio-inner-margin;
@@ -130,7 +130,7 @@
 
 .mdl-radio__ripple-container {
   position: absolute;
-  z-index: 2;
+  z-index: $z-index-2;
   top: -(($radio-ripple-size - $radio-label-height) / 2);
   left: -(($radio-ripple-size - $radio-button-size) / 2);
 

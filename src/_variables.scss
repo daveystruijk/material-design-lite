@@ -21,6 +21,7 @@
  * STYLE GUIDE VARIABLES------------------Declarations of Sass variables
  * -----Typography
  * -----Colors
+ * -----Z-indexes
  * -----Textfield
  * -----Switch
  * -----Spinner
@@ -124,6 +125,18 @@ $text-link-color: unquote("rgb(#{$color-accent})") !default;
 // It is strongly recommended you leave this as true.
 
 $target-elements-directly: true !default;
+
+/* ==========  Z-indexes  ========== */
+
+$z-index-neg-1: -1 !default;
+$z-index-0: 0 !default;
+$z-index-1: 1 !default;
+$z-index-2: 2 !default;
+$z-index-3: 3 !default;
+$z-index-4: 4 !default;
+$z-index-5: 5 !default;
+$z-index-999: 999 !default;
+$z-index-10000: 10000 !default;
 
 /* ==========  Components  ========== */
 
@@ -455,7 +468,7 @@ $card-supporting-text-line-height: 18px !default;
 $card-actions-font-size: 16px !default;
 
 $card-title-text-font-weight: 300 !default;
-$card-z-index: 1 !default;
+$card-z-index: $z-index-1 !default;
 
 /* Cover image */
 $card-cover-image-height: 186px !default;

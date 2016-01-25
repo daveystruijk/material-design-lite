@@ -27,11 +27,11 @@
   height: 0;
   width: 0;
   visibility: hidden;
-  z-index: -1;
+  z-index: $z-index-neg-1;
 
   &.is-visible,
   &.is-animating {
-    z-index: 999;
+    z-index: $z-index-999;
     visibility: visible;
   }
 }
@@ -54,12 +54,12 @@
   will-change: transform;
   transition: transform $menu-expand-duration $animation-curve-default,
       opacity $menu-fade-duration $animation-curve-default;
-  z-index: -1;
+  z-index: $z-index-neg-1;
 
   .mdl-menu__container.is-visible & {
     opacity: 1;
     transform: scale(1);
-    z-index: 999;
+    z-index: $z-index-999;
   }
 
   &.mdl-menu--bottom-right {
@@ -87,11 +87,11 @@
   margin: 0;
   opacity: 0;
   clip: rect(0 0 0 0);
-  z-index: -1;
+  z-index: $z-index-neg-1;
 
   .mdl-menu__container.is-visible & {
     opacity: 1;
-    z-index: 999;
+    z-index: $z-index-999;
   }
 
   &.is-animating {
@@ -195,6 +195,6 @@
   position: absolute;
   top: 0px;
   width: 100%;
-  z-index: 0;
+  z-index: $z-index-0;
   overflow: hidden;
 }
